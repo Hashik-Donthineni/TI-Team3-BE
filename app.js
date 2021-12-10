@@ -14,5 +14,5 @@ app.use(authRouter);
 
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
-  console.errror("Server running on " + port);
+  console.error("Server running on " + port);
 });
